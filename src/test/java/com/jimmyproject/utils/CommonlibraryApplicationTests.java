@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-@SpringBootTest(classes = CommonlibraryApplication.class)
+@SpringBootTest
 @ActiveProfiles("test")
-class CommonlibraryApplicationTests {
+class CommonLibraryApplicationTests {
 
     @Test
     void contextLoads() {

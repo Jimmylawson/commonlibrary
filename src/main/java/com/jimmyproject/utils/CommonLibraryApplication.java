@@ -7,10 +7,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties(JwtProperties.class)
-public class CommonlibraryApplication {
+public class CommonLibraryApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CommonlibraryApplication.class, args);
+        SpringApplication.run(CommonLibraryApplication.class, args);
     }
-
 }
