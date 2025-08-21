@@ -56,7 +56,19 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>6.6.18.Final</version>
 		</dependency>
+		<dependency>
+			<groupId>com.github.Jimmylawson</groupId>
+			<artifactId>commonlibrary</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
